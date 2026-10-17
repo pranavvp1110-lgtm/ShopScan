@@ -1,0 +1,20 @@
+{
+  "name": "ScanGuard AI — Mobile Checkout",
+  "short_name": "ScanGuard",
+  "description": "Smart Mobile Barcode Scan & Go Checkout with Retail Loss Prevention",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
