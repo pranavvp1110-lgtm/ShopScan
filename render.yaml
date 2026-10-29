@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: scanguard-ai
+    name: shopscan-ai
     env: python
     plan: free
     region: oregon

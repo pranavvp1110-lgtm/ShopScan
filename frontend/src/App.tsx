@@ -197,7 +197,7 @@ export function App() {
       />
 
       {/* Mobile-Aligned App Container */}
-      <main className="flex-1 w-full max-w-md mx-auto bg-slate-50 min-h-screen shadow-lg sm:border-x sm:border-slate-200 flex flex-col relative pb-20">
+      <main className="flex-1 w-full max-w-md mx-auto bg-slate-50 min-h-screen shadow-lg sm:border-x sm:border-slate-200 flex flex-col relative pb-20 overflow-x-hidden">
         {/* VIEW 1: Cart Items */}
         {activeTab === 'cart' && (
           <CartPage

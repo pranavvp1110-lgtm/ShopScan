@@ -1,10 +1,10 @@
 {
-  "name": "ScanGuard AI — Mobile Checkout",
-  "short_name": "ScanGuard",
+  "name": "ShopScan AI — Smart Mobile Checkout",
+  "short_name": "ShopScan",
   "description": "Smart Mobile Barcode Scan & Go Checkout with Retail Loss Prevention",
-  "start_url": "/",
-  "id": "/",
-  "scope": "/",
+  "start_url": "./",
+  "id": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0F172A",
@@ -16,25 +16,25 @@
   ],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-maskable-512.png",
+      "src": "./icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon.svg",
+      "src": "./icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"
