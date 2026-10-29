@@ -46,3 +46,11 @@ logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Flutter Artifacts
+.dart_tool/
+mobile/.dart_tool/
+mobile/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+

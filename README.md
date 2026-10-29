@@ -159,6 +159,25 @@ npm run dev -- --host 127.0.0.1 --port 5173
 ```
 Open **`http://127.0.0.1:5173/`** in your browser.
 
+### 3. Run the Flutter Mobile App (iOS / Android / Desktop / Web)
+
+The repository includes a native Flutter multiplatform application in the `mobile/` directory:
+
+```bash
+cd mobile
+flutter pub get
+flutter run
+```
+
+- **Features in Flutter App:**
+  - Full MVVM layered architecture with `ChangeNotifier` state management.
+  - Interactive barcode scanner view with animated laser reticle and manual barcode entry.
+  - Complete 24-product supermarket catalogue with Unsplash photography and gram weights.
+  - Live AI verification banner displaying real-time risk scores and autonomous clearance approvals.
+  - Digital checkout with simulated payment methods and animated Turnstile Exit Pass QR codes using `qr_flutter`.
+  - Store security & shrinkage operations terminal with real-time discrepancy resolution.
+  - Seamless offline mode: runs independently with built-in mock telemetry even when backend is offline.
+
 ---
 
 ## Running the Automated Test Suites
